@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+h1{
+    text-shadow: 0px 0px 35px #c2c2c2;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../image/2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+#header .container{
+    position: relative;
+    top: 30%;
+}
+#header .container .row{
+    margin: auto;
+    text-align: center;
+}
+#header .container .row h1{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#header .container .row p{
+    color: rgb(208, 208, 208);
+    font-family: sans-serif;
+}
+#header .container .row .btn{
+    background-color: transparent;
+    color: white;
+    width: 25%;
+    margin: auto;
+    margin-top:10px ;
+}
+#About{
+    margin: 80px 0px;
+    
+}
+#about .container .row .item1{
+    align-items: center;
+}
+#main2 .container .item2{
+    margin:40px 0px ;
+}
+#main2 .container .item2 p{
+    color: rgb(208, 208, 208);
+}
+#main3 .container .item2 p{
+    color: rgb(208, 208, 208);
+}
+#main3 .container .item2{
+    margin:40px 0px ;
+}
+#footer{
+    margin-top: 70px;
+    padding: 70px 0px;
+    background-color: rgb(7, 7, 7);
+}
+
+#footer .social{
+    text-align: center;
+}
+#footer .social i{
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+@media (max-width:517px){
+    #header .container .row .btn{
+        width: 40%;
+    }
+}
+@media (max-width:430px){
+    #header .container .row h1{
+       font-size: 30px;
+    }
+}
